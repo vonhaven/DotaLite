@@ -5,6 +5,7 @@ class Hero {
     String flavor
     String bio
     Faction faction
+    Stat primaryStat
     int baseHealth
     int baseMana
     int baseDamage
@@ -13,6 +14,10 @@ class Hero {
     int baseAgility
     int baseIntelligence
     int baseMovementSpeed
+    Spell q
+    Spell w
+    Spell e
+    Spell r
 
     static constraints = {
         name blank: false
