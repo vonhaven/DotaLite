@@ -1,6 +1,6 @@
 package dotalite
 
-class SpellInstance {
+class SpellInstance extends Spell {
     int cooldownLeft
 
     static constraints = {
