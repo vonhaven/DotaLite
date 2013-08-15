@@ -13,11 +13,9 @@ class Hero {
     int baseStrength
     int baseAgility
     int baseIntelligence
+    int baseAttackSpeed
     int baseMovementSpeed
-    Spell q
-    Spell w
-    Spell e
-    Spell r
+    List<Spell> spells
 
     static constraints = {
         name blank: false
@@ -30,6 +28,8 @@ class Hero {
         baseStrength size: 10..25
         baseAgility size: 10..25
         baseIntelligence size: 10..25
+        baseAttackSpeed size: 0..20
         baseMovementSpeed size: 28..32
+        spells size: 4
     }
 }

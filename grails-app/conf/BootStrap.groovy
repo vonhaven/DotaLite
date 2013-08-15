@@ -22,7 +22,7 @@ class BootStrap {
         new Hero ([
             name: "Anti-Mage",
             flavor: "Blinkin' and Slammin'",
-            bio: "He brings an end to magic",
+            bio: "Magic sucks.",
             faction: faction,
             primaryStat: primaryStat,
             baseHealth: 130,
@@ -32,7 +32,20 @@ class BootStrap {
             baseStrength: 20,
             baseAgility: 22,
             baseIntelligence: 15,
+            baseAttackSpeed: 7,
             baseMovementSpeed: 32  
+            spells: [ 
+                new Spell(name: "Mana Break",
+                    description: "Burns 6 mana from the target, dealing additional magic damage equal to the amount of mana destroyed.",
+                    passive: true),
+                new Spell(name: "Blink",
+                    description: "Teleports to any location within 500 range in the blink of an eye.",
+                    cooldown: 5,
+                    manaCost: 50),
+                new Spell(name: "Spell Shield",
+                    description: "Reduces all magic damage taken by 50%.",
+                    passive: true),
+            ]
         ]).save(failOnError: true, flush: true)
         
         //Radiant Intelligence

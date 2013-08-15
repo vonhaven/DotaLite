@@ -1,16 +1,15 @@
 package dotalite
 
-class Spell {
+class State {
     String name
     String description
-    boolean passive = false
-    int cooldown = 0
-    int manaCost = 0
+    boolean canPurge
+    boolean isHarmful
+    int duration
+    int maxStacks = 1
 
     static constraints = {
         name blank: false
         description blank: false
-        cooldown size: 0..30
-        manaCost min: 0
     }
 }

@@ -1,6 +1,7 @@
 package dotalite
 
-class HeroInstance extends Hero {
+class HeroUnit extends Unit {
+    Hero baseHero
     Faction side
     int health = baseHealth
     int mana = baseMana
@@ -13,7 +14,9 @@ class HeroInstance extends Hero {
     int modStrength = 0
     int modAgility = 0
     int modIntelligence = 0
+    int modAttackSpeed = 0
     int modMovementSpeed = 0
+    List<State> states
 
     static constraints = {
         
