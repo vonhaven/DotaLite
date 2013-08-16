@@ -30,6 +30,6 @@ class Hero {
         baseIntelligence size: 10..25
         baseAttackSpeed size: 0..20
         baseMovementSpeed size: 28..32
-        spells size: 4
+        spells size: 4..4
     }
 }

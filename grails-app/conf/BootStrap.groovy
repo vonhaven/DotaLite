@@ -33,18 +33,30 @@ class BootStrap {
             baseAgility: 22,
             baseIntelligence: 15,
             baseAttackSpeed: 7,
-            baseMovementSpeed: 32  
+            baseMovementSpeed: 32,  
             spells: [ 
-                new Spell(name: "Mana Break",
+                new Spell (
+                    name: "Mana Break",
                     description: "Burns 6 mana from the target, dealing additional magic damage equal to the amount of mana destroyed.",
-                    passive: true),
-                new Spell(name: "Blink",
+                    passive: true
+                ),
+                new Spell (
+                    name: "Blink",
                     description: "Teleports to any location within 500 range in the blink of an eye.",
                     cooldown: 5,
-                    manaCost: 50),
-                new Spell(name: "Spell Shield",
+                    manaCost: 50
+                ),
+                new Spell (
+                    name: "Spell Shield",
                     description: "Reduces all magic damage taken by 50%.",
-                    passive: true),
+                    passive: true
+                ),
+                new Spell (
+                    name: "Mana Void",
+                    description: "Stuns the target for 1 second and deals magic damage damage equal to 50% of the target's missing mana in a small area of effect.",
+                    cooldown: 20,
+                    manaCost: 75
+                )
             ]
         ]).save(failOnError: true, flush: true)
         
