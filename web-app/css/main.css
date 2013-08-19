@@ -5,11 +5,12 @@ html {
 
 @font-face {
     font-family: "Geo Sans";
-    src: url('GeosansLight.ttf');
+    src: url('fonts/GeosansLight.ttf');
 }
 
 body {
-    color:#888;
+    background-image: url('../images/bg.jpg');
+    color:#222;
     font-family:"Geo Sans";
     height:100%;
     text-align:center;
@@ -22,22 +23,23 @@ a {
 
 #main {
     background-color:#f8f6f6;
-    border-left:1px solid #ccc;
-    border-right:1px solid #ccc;
+    border-left:1px solid #222;
+    border-right:1px solid #222;
     bottom:0;
     height:100%;
     left:0;
     margin:auto;
+    opacity:0.85;
     overflow:hidden;
     padding:0 48px;
     position:absolute;
     right:0;
     top:0;
-    width: 900px;
+    width:900px;
 }
 
 .title {
-    border-bottom:1px solid #ccc;
+    border-bottom:1px solid #aaa;
     font-size:46px;
     margin-top:24px;
     padding-left:12px;
@@ -55,15 +57,21 @@ a {
 }
 
 .menu-item {
-    background-color:#f6f4f4;
-    border:1px solid #ccc;
+    background-color:#111;
+    border:1px solid #888;
+    color:#bbb;
     cursor:pointer;
     display:inline-block;
-    font-size:24px;
-    height:160px;
+    font-size:27px;
+    height:176px;
     margin:12px 4px 0 4px;
-    padding-top:12px;
     text-align:center;
     vertical-align:middle;
     width:276px;
+}
+
+.menu-title {
+    height:38px;
+    margin-top:136px;
+    padding-top:2px;
 }

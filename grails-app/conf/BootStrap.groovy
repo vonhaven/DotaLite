@@ -21,7 +21,7 @@ class BootStrap {
         primaryStat = Stat.AGI
         new Hero ([
             name: "Anti-Mage",
-            flavor: "Blinkin' and Slammin'",
+            flavor: "Blinkin' 'n' Slammin'",
             bio: "Magic sucks.",
             faction: faction,
             primaryStat: primaryStat,
