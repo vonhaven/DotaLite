@@ -8,10 +8,9 @@
             <div class="hero">
                 <div class="name">${it.name}</div>
                 <g:img class="portrait" dir="images" file="heroes/portraits/${it.name}.png"/>
-                <div class="baseHealth">${it.baseHealth}</div>
-                <div class="baseMana">${it.baseMana}</div>
-                <div class="baseDamage">${it.baseDamage}</div>
-                <div class="primaryStat">${it.primaryStat}</div>
+                <g:img class="primaryStat" dir="images" file="stats/${it.primaryStat}.png"/>
+                <div class="baseStats">${it.baseStrength}, ${it.baseAgility}, ${it.baseIntelligence}</div>
+                <div>${spells}</div>
             </div>
         </g:each>
     </body>

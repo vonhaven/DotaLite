@@ -4,9 +4,9 @@ class HeroesController {
 
     def index() {
         List<Hero> heroes
+        List<Spell> spells
         heroes = Hero.findAll()
-        [
-            heroes: heroes
-        ]
+        spells = Spell.findAll()
+        [heroes: heroes, spells: spells]
     }
 }
