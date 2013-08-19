@@ -5,11 +5,14 @@ html {
 
 @font-face {
     font-family: "Geo Sans";
-    src: url('fonts/GeosansLight.ttf');
+    src:url('fonts/GeosansLight.ttf');
 }
 
 body {
-    background-image: url('../images/bg.jpg');
+    background-color:#000;
+    background-image:url('../images/bg.jpg');
+    background-size:100% 1080px;
+    background-repeat:no-repeat;
     color:#222;
     font-family:"Geo Sans";
     height:100%;

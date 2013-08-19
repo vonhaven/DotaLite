@@ -1,31 +1,44 @@
 .hero {
     background-color:#111;
-    color:#999;
+    color:#ccc;
     cursor:pointer;
     display:inline-block;
-    font-family:"Courier New";
-    font-size:14px;
-    height:266px;
+    font-size:19px;
+    height:240px;
     margin:12px 4px 0 4px;
     text-align:center;
+    width:200px;
     vertical-align:middle;
 }
 
+.flavor {
+    margin-top:-3px;
+}
+
 .portrait {
-    opacity:0.8; 
+    opacity:0.9; 
+    height:115px;
     width:200px;
 }
 
+.spell {
+    display:inline;
+    height:52px;
+    margin:0 -4px;
+    opacity:0.9; 
+    width:52px;
+}
+
 .primaryStat {
+    float:left;
     opacity:0.8;
-    margin-top:-33px;
-    margin-left:-98px;
-    position:absolute;
+    margin-top:-37px;
+    top:inherit;
 }
 
 .name {
-    color:#bbb;
+    color:#ddd;
     font-family:"Geo Sans";
-    font-size:26px;
-    padding:6px;
+    font-size:27px;
+    padding:6px 0 2px;
 }
