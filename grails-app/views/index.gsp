@@ -11,9 +11,11 @@
             <div class="menu-item">Community</div>
         </div>
         <div id="mid-menu">
-            <a href="Mechanics">
+            <a href="Mechanic">
                 <div id="mechanics" class="menu-item">
-                    Mechanics
+                    <div class="menu-title">
+                        Mechanics
+                    </div> 
                 </div>
             </a>
             <a href="Heroes">
@@ -25,7 +27,9 @@
             </a>
             <a href="Origins">
                 <div id="origins" class="menu-item">
-                    Origins
+                    <div class="menu-title">
+                        Origins
+                    </div>
                 </div>
             </a>
         </div>

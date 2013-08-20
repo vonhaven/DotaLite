@@ -3,7 +3,7 @@ package dotalite
 class Spell {
     String name
     String description
-    boolean passive = false
+    Target target
     int cooldown = 0
     int manaCost = 0
 

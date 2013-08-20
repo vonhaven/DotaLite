@@ -3,8 +3,8 @@ package dotalite
 class HeroUnit extends Unit {
     Hero hero
     Faction side
-    //int health = hero.baseHealth
-    //int mana = hero.baseMana
+    int health
+    int mana
     int modHealth = 0
     int modMana = 0
     int modHealthRegen = 0
@@ -18,7 +18,13 @@ class HeroUnit extends Unit {
     int modMovementSpeed = 0
     List<State> states
 
+    public HeroUnit() {
+        //health = hero.baseHealth
+        //mana = hero.baseMana
+    }
+
     static constraints = {
-        
+        health min: 0
+        mana min: 0    
     }
 }

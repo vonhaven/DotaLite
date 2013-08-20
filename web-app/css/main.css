@@ -32,9 +32,8 @@ a {
     height:100%;
     left:0;
     margin:auto;
-    opacity:0.85;
     overflow:hidden;
-    padding:0 48px;
+    padding:0 78px;
     position:absolute;
     right:0;
     top:0;
@@ -42,7 +41,7 @@ a {
 }
 
 .title {
-    border-bottom:1px solid #aaa;
+    border-bottom:1px solid #bbb;
     font-size:46px;
     margin-top:24px;
     padding-left:12px;
@@ -66,15 +65,13 @@ a {
     cursor:pointer;
     display:inline-block;
     font-size:27px;
-    height:176px;
     margin:12px 4px 0 4px;
     text-align:center;
-    vertical-align:middle;
     width:276px;
 }
 
 .menu-title {
-    height:38px;
+    border-top:1px solid #666;
     margin-top:136px;
     padding-top:2px;
 }
