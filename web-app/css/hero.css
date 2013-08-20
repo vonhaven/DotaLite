@@ -1,44 +1,40 @@
 .hero {
     background-color:#111;
+    border:1px solid #444;
     color:#ccc;
     cursor:pointer;
     display:inline-block;
     font-size:19px;
-    height:240px;
     margin:12px 4px 0 4px;
     text-align:center;
     width:200px;
-    vertical-align:middle;
-}
-
-.flavor {
-    margin-top:-3px;
 }
 
 .portrait {
-    opacity:0.9; 
+    border-bottom:1px solid #444;
+    border-top:1px solid #444;
     height:115px;
     width:200px;
 }
 
 .spell {
+    border:1px solid #444;
     display:inline;
-    height:52px;
-    margin:0 -4px;
-    opacity:0.9; 
-    width:52px;
+    height:44px;
+    margin:6px 0 0;
+    width:42px;
 }
 
 .primaryStat {
     float:left;
     opacity:0.8;
     margin-top:-37px;
-    top:inherit;
 }
 
 .name {
     color:#ddd;
     font-family:"Geo Sans";
     font-size:27px;
+    height:33px;
     padding:6px 0 2px;
 }
