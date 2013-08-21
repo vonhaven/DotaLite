@@ -1,3 +1,4 @@
-class Game {
+class Game
+    constructor: (@name) ->
+
     
-}

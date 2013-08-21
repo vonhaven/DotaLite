@@ -1,5 +1,48 @@
 canvas {
-    background-color:#f5f2f2;
+    background-color:#445544;
     border:1px solid #888;    
-    margin-top:12px;
+}
+
+span {
+    display:inline-block;
+    opacity:0.9;
+}
+
+.portrait {
+    border-left:1px solid #888;    
+    border-right:1px solid #888;    
+    border-top:1px solid #888;    
+    height:39px;
+    margin-bottom:-6px;
+    width:64px;
+}
+
+.spell {
+    border-right:1px solid #888;    
+    border-top:1px solid #888;    
+    height:39px;
+    margin-bottom:-6px;
+    margin-left:-4px;
+    width:38px;
+}
+
+#radiantPanel {
+    float:left;
+}
+
+#direPanel {
+    float:right;
+}
+
+#infoPanel {
+    height:200px;
+}
+
+#gamePanel {
+    background-color:#222;
+    border-left:1px solid #888;    
+    border-right:1px solid #888;    
+    border-top:1px solid #888;    
+    margin:0 auto 0;
+    width:800px;
 }

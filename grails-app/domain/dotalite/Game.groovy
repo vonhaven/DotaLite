@@ -4,9 +4,10 @@ class Game {
 
     Team radiant
     Team dire 
-    int turn
+    int turn = 0
 
     static constrants = {
-
+        gameId blank: false
+        turn min: 0
     }
 }

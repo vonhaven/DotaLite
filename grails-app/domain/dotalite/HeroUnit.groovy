@@ -2,7 +2,6 @@ package dotalite
 
 class HeroUnit extends Unit {
     Hero hero
-    Faction side
     int health
     int mana
     int modHealth = 0
