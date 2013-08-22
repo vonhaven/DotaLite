@@ -1,20 +1,116 @@
 canvas {
-    background-color:#445544;
+    background-color:#454;
     border:1px solid #888;    
     height:600px;
     margin-bottom:24px;
     width:800px;
 }
 
-span {
-    display:inline-block;
+.stat {
+    height:30px;
+    margin:3px -1;
+    width:30px;
 }
 
-img {
+.spell{
+    margin:0 1px;
     height:40px;
+    width:40px;
+}
+
+.portrait {
+    width:70px;
+}
+
+.panel {
+    display:inline-block;
+    height:240px;
+}
+
+.info {
+    height:40px;
+    margin:0 0 6px;
+}
+
+.player {
+    color:#eee;
+    display:inline-block;
+    font-size:18px;
+    padding:5px 5px;
+    width:90px;
+}
+
+.rank {
+    font-family:"Courier New";
+    font-size:14px;
+    width:90px;
+}
+
+.turn {
+    background-color:#222;
+    color:#bbb;
+    font-family:"Courier New";
+    font-size:14px;
+    width:132px;
+}
+
+.turnNumber {
+    border:1px solid #888;
+    display:inline-block;
+    float:top;
+    font-weight:bold;
+    height:14px;
+    padding:4px;
+    width:14px;
+}
+
+.turnBar {
+    background-color:#543;
+    border-left:0;
+    display:inline-block;
+    float:center;
+    height:14px;
+    padding:4px;
+    width:99px;
+}
+
+#gamePanel {
+    float:center;
+    margin:0 auto;
+    width:804px;
 }
 
 #infoPanel {
-    background-color:#222;
-    width:300px;
+    width:260px;
+}
+
+#targetPanel {
+    margin:0 auto;
+    padding-top:3px;
+    height:136px;
+}
+
+#targetStatus {
+    margin:0 auto;
+    width:130px;
+}
+
+#targetPortrait {
+    height:75px;
+    opacity:0.8;
+    width:130px;
+}
+
+#targetHealth, #targetMana {
+    height:8px;
+    margin:2px 0;
+    width:130px;
+}
+
+#targetHealth {
+    background-color:#9d9;
+}
+
+#targetMana {
+    background-color:#99d;
 }
