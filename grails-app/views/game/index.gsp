@@ -32,9 +32,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="info turn">
+                <div class="info">
                     <div class="turnNumber">
-                        3 
+                        Turn 3 
                     </div>
                     <div class="turnBar">
                         0:42:00

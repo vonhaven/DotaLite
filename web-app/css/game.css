@@ -46,34 +46,6 @@ canvas {
     width:90px;
 }
 
-.turn {
-    background-color:#222;
-    color:#bbb;
-    font-family:"Courier New";
-    font-size:14px;
-    width:132px;
-}
-
-.turnNumber {
-    border:1px solid #888;
-    display:inline-block;
-    float:top;
-    font-weight:bold;
-    height:14px;
-    padding:4px;
-    width:14px;
-}
-
-.turnBar {
-    background-color:#543;
-    border-left:0;
-    display:inline-block;
-    float:center;
-    height:14px;
-    padding:4px;
-    width:99px;
-}
-
 #gamePanel {
     float:center;
     margin:0 auto;
@@ -102,7 +74,7 @@ canvas {
 }
 
 #targetHealth, #targetMana {
-    height:8px;
+    height:9px;
     margin:2px 0;
     width:130px;
 }
