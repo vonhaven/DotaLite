@@ -1,6 +1,5 @@
 canvas {
     background-color:#454;
-    border:1px solid #888;    
     height:600px;
     margin-bottom:24px;
     width:800px;
@@ -8,14 +7,13 @@ canvas {
 
 .stat {
     height:30px;
-    margin:3px -1;
+    margin:5px -1px 0;
     width:30px;
 }
 
 .spell{
     margin:0 1px;
-    height:40px;
-    width:40px;
+    width:43px;
 }
 
 .portrait {
@@ -74,15 +72,16 @@ canvas {
 }
 
 #targetHealth, #targetMana {
+    border-top:2px solid #222;
     height:9px;
-    margin:2px 0;
     width:130px;
 }
 
 #targetHealth {
-    background-color:#9d9;
+    background-color:#8c8;
+    margin:2px 0 0;
 }
 
 #targetMana {
-    background-color:#99d;
+    background-color:#88c;
 }

@@ -24,6 +24,68 @@
     width:34px;
 }
 
+.attr, .stat {
+    background-repeat:no-repeat;
+    color:#ddd;
+    font-size:14px;
+    font-weight:bold;
+    margin:auto 0;
+}
+
+.attr {
+    background-size:28px 28px;
+    display:inline-block;
+    float:top;
+    padding-top:28px;
+    width:26px;
+}
+
+.stat {
+    background-size:20px 16px;
+    display:inline-block;
+    width:16px;
+}
+
+.leftStat {
+    background-position:left;
+    padding-left:16px;
+    text-align:right;
+}
+
+.rightStat{
+    background-position:right;
+    padding-right:16px;
+    text-align:left;
+}
+
+.damage{
+    background-image:url("../images/stats/Attack_Damage.png");
+}
+
+.attackSpeed {
+    background-image:url("../images/stats/Attack_Speed.png");
+}
+
+.movementSpeed {
+    background-image:url("../images/stats/Movement_Speed.png");
+}
+
+.armor {
+    background-image:url("../images/stats/Armor.png");
+}
+
+.strength {
+    background-image:url("../images/stats/STR.png");
+}
+
+.agility {
+    background-image:url("../images/stats/AGI.png");
+}
+
+.intelligence {
+    background-image:url("../images/stats/INT.png");
+}
+
 .primaryStat {
 
 }
